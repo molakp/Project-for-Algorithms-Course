@@ -70,7 +70,7 @@ edit_distance
 carattere di
 • se , allora
 • se , allora
-'''java
+'''
 |s|
 rest(s) s
 |s1| = 0 edit distance(s1, s2) = |s2|
