@@ -66,30 +66,26 @@ inserimento)
 * Si implementi una versione ricorsiva della funzione
 edit_distance
  Sia la lunghezza di una stringa
- Sia la sottostringa di ottenuta ignorando il primo
-carattere di
-• se , allora
-• se , allora
-'''
+ Sia la sottostringa di ottenuta ignorando il primo carattere di
+
+```java
 |s|
 rest(s) s
 |s1| = 0 edit distance(s1, s2) = |s2|
 |s2| = 0 edit distance(s1, s2) = |s1|
-'''
-s
-ESERCIZIO 2
-• Altrimenti siano:
+```
+
+
+ Altrimenti siano:
+ ```java
 dcanc = 1 + edit distance(s1,rest(s2))
 dins = 1 + edit distance(rest(s1), s2)
-dnoop =
-(
-edit distance(rest(s1),rest(s2)) se s1[0] = s2[0]
-1 altrimenti
-•
-•
-•
-• Allora:
-edit distance(s1, s2) = min{dnoop, dcanc, dins}
+dnoop = (edit distance(rest(s1),rest(s2)) se s1[0] = s2[0]
+
+ //Allora
+edit distance(s1, s2) = min{dnoop, dcanc, dins} 
+```
+
 ESERCIZIO 2
 • Si implementi una versione edit_distance_dyn della
 funzione, adottando una strategia di programmazione
