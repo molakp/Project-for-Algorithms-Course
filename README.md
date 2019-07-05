@@ -75,15 +75,13 @@ rest(s) s
 |s2| = 0 edit distance(s1, s2) = |s1|
 ```
 
-
  Altrimenti siano:
- ```java
+```java
 dcanc = 1 + edit distance(s1,rest(s2))
 dins = 1 + edit distance(rest(s1), s2)
 dnoop = (edit distance(rest(s1),rest(s2)) se s1[0] = s2[0]
-
- //Allora
-edit distance(s1, s2) = min{dnoop, dcanc, dins} 
+//Allora
+edit distance(s1, s2) = min{dnoop, dcanc, dins}
 ```
 
 ESERCIZIO 2
