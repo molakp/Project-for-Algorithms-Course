@@ -84,23 +84,25 @@ dnoop = (edit distance(rest(s1),rest(s2)) se s1[0] = s2[0]
 edit distance(s1, s2) = min{dnoop, dcanc, dins}
 ```
 
-ESERCIZIO 2
-• Si implementi una versione edit_distance_dyn della
+
+* Si implementi una versione edit_distance_dyn della
 funzione, adottando una strategia di programmazione
 dinamica
-• Nota: Le definizioni alle slides precedenti non corrispondono
+ **Nota**: Le definizioni alle slides precedenti non corrispondono
 al modo usuale di definire la distanza di edit, né si prestano ad
 una implementazione iterativa particolarmente efficiente.
 Sono del tutto sufficienti però per risolvere l'esercizio e sono
 quelle su cui dovrete basare la vostra risposta.
-ESERCIZIO 2 - USO DELLE
-FUNZIONI
+
+**ESERCIZIO 2 - USO DELLE
+FUNZIONI**
 • File dictionary.txt
 • elenco delle parole italiane (molte)
 • Parole scritte di seguito, ciascuna su una riga
 • File correctme.txt
 • citazione di John Lennon
 • presenti alcuni errori di battitura
+
 ESERCIZIO 2 - USO DELLE
 FUNZIONI
 • Si implementi un'applicazione che usa la funzione
@@ -110,12 +112,14 @@ dictionary.txt con edit distance minima da w
 • Si sperimenti il funzionamento dell'applicazione e
 si riporti in una breve relazione (circa una pagina) i
 risultati degli esperimenti
+
 ESERCIZIO 3
 • Si implementi la struttura dati Coda con priorità
 • La struttura dati
 • deve gestire tipi generici
 • consentire un numero qualunque e non noto
 a priori di elementi
+
 ESERCIZIO 4
 • Si implementi una libreria che realizza la struttura dati Grafo in modo che sia
 ottimale per dati sparsi
@@ -126,6 +130,7 @@ un'implementazione per grafi diretti in modo che:
 • per ogni arco (a,b), etichettato w, presente nel grafo, è presente
 nel grafo anche l'arco (b,a), etichettato w
 • il grafo dovrà mantenere l'informazione che specifica se è diretto o no
+
 ESERCIZIO 4
 • Implementare:
 • le funzioni essenziali per la struttura dati
@@ -133,6 +138,7 @@ Grafo
 • una funzione che restituisce il peso del grafo
 • se il grafo non è pesato, la funzione
 può terminare con un errore
+
 ESERCIZIO 4 - USO DELLA
 LIBRERIA
 • Si implementi l'algoritmo di Prim per la determinazione
@@ -142,6 +148,7 @@ della minima foresta ricoprente del grafo
 l'algoritmo restituirà un albero, altrimenti restituirà una
 foresta costituita dai minimi alberi ricoprenti di ciascuna
 componente connessa
+
 ESERCIZIO 4 - USO DELLA
 LIBRERIA E DI PRIM
 • Utilizzare l’algoritmo di Prim sul file italian_dist_graph.csv
@@ -153,6 +160,7 @@ spazi, non può contenere virgole;
 • località 2: (tipo stringa) nome della località "destinazione". La stringa può
 contenere spazi, non può contenere virgole;
 • distanza: (tipo float) distanza in metri tra le due località.
+
 ESERCIZIO 4 - USO DELLA
 LIBRERIA E DI PRIM
 • Interpretare le informazioni del file come archi non diretti
