@@ -2,6 +2,7 @@
 
 
 ##ENG
+
 The "Project-for-Algorithms-Course" repository is a collection of projects and examples developed as a part of an algorithms course. The repository includes implementations of various data structures and algorithms using Python, and covers topics such as sorting, searching, graph algorithms, and dynamic programming. The projects are designed to provide hands-on experience with solving real-world problems using algorithms, and include examples such as shortest path algorithms, network flow algorithms, and dynamic programming solutions to optimization problems.
 
 The repository is intended for computer science students and anyone interested in learning about algorithms and data structures. Each project includes a README file with instructions on how to run the code and a brief explanation of the problem and the solution. The code is well-documented and follows best practices for Python coding.
