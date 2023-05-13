@@ -1,7 +1,7 @@
 # Laboratorio di Algoritmi e Strutture Dati #
 
 
-##ENG
+## ENG ##
 
 The "Project-for-Algorithms-Course" repository is a collection of projects and examples developed as a part of an algorithms course. The repository includes implementations of various data structures and algorithms using Python, and covers topics such as sorting, searching, graph algorithms, and dynamic programming. The projects are designed to provide hands-on experience with solving real-world problems using algorithms, and include examples such as shortest path algorithms, network flow algorithms, and dynamic programming solutions to optimization problems.
 
