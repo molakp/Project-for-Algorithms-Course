@@ -10,6 +10,7 @@ The repository is intended for computer science students and anyone interested i
 The projects in this repository are designed to be used as a resource for learning and practicing algorithms, and can be used as a supplement to other learning materials such as textbooks and lecture notes. The code is open source and contributions are welcome, making this a collaborative effort to improve understanding and implementation of algorithms.
 
 
+## ITA ##
 **ESERCIZIO 1**
 * Implementare una libreria che offre i seguenti
 algoritmi di ordinamento:
